@@ -13,3 +13,26 @@
  *= require_tree .
  *= require_self
  */
+* {
+  color:#303742;
+}
+
+body {
+  background: #7c96c1; /* For browsers that do not support gradients */
+}
+
+h1 {
+ font-size: 40px;
+ text-align: center;
+}
+
+p{
+  font-size: 20px;
+  text-align: center;
+}
+
+.center {
+    margin: auto;
+    width: 20%;
+}
+
