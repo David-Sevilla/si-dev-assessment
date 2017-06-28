@@ -2,14 +2,14 @@
 <p>Do you want to send a text message?</p>
 
 <div class="center">
-<%= form_tag("/sms/send", method: "post") do %>
-<%= label_tag(:phone_number, "Phone Number: ") %> 
-</br>
-<%= telephone_field(:user, :phone) %> 
-</br>
-<textarea id="message" name="message" cols="25" rows="6">Your SMS message</textarea>
-</br>
-<%= submit_tag("Send") %>
-<!-- add form elements here -->
-<% end %>
+  <%= form_tag("/sms/send", method: "post") do %>
+    <%= label_tag(:phone_number, "Phone Number: ") %> 
+    </br>
+    <%= telephone_field(:user, :phone) %> 
+    </br>
+    <textarea id="message" name="message" cols="25" rows="6">Your SMS message</textarea>
+    </br>
+    <%= submit_tag("Send") %>
+    <!-- add form elements here -->
+  <% end %>
 </div>

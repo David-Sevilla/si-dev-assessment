@@ -3,5 +3,7 @@ class PagesController < ApplicationController
   end
 
   def sms
+    params[:message]
+    params[:user][:phone]
   end
 end
